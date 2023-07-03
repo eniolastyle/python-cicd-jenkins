@@ -10,7 +10,7 @@ pipeline {
 
 	stage("Checkout from SCM") {
 	    steps {
-		git branch: 'main', credentialsId: 'github', url: 'https://github.com/eniolastyle/python-jenkins'
+		git branch: 'main', credentialsId: 'github', url: 'https://github.com/eniolastyle/python-cicd-jenkins'
 	    }
 	}
 
