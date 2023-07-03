@@ -16,7 +16,7 @@ pipeline {
 
 	stage("Build Application"){
             steps {
-                sh "python app.py"
+                sh "python3 app.py"
             }
         }
     }
